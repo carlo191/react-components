@@ -6,21 +6,24 @@ import Footer from "./components/footer";
 function App() {
   return (
     <>
-      {/* Header */}
-      <Header />
+      {" "}
+      <body id="body">
+        {/* Header */}
+        <Header />
 
-      {/* Titolo del blog */}
-      <h1 className="text-center p-3">Il mio blog</h1>
-
-      {/* Card centrata */}
-      <div className="d-flex justify-content-center mt-2">
-        <Card />
-      </div>
-
-      {/* Footer */}
-      <footer id="footer">
-        <Footer />
-      </footer>
+        {/* Titolo del blog */}
+        <h1 className="text-center p-3">Il mio blog</h1>
+        <main>
+          {/* Card centrata */}
+          <div className="d-flex justify-content-center mt-2">
+            <Card />
+          </div>
+        </main>
+        {/* Footer */}
+        <footer id="footer">
+          <Footer />
+        </footer>
+      </body>
     </>
   );
 }

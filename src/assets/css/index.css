@@ -3,12 +3,12 @@ header {
   min-height: 80px;
   width: 100%;
 }
-body {
-  background-color: blue;
+#body {
+  background-color: #e5e5e5;
 }
 #footer {
   background-color: black;
-  height: 100%;
+  min-height: 100%;
   margin-top: 50px;
   padding: 15px;
   color: aliceblue;
