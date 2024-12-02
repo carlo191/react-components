@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.css";
 import Header from "./components/Header";
-import Card from "./card";
+import Card from "./components/card";
 import Footer from "./components/Footer";
 import Main from "./components/Main";
 
